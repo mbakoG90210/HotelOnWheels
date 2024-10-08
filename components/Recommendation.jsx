@@ -17,7 +17,7 @@ import Image from "next/image";
 const recommendationData = [
   {
     name: "Power Sources",
-    image: "/recommendation/hotel-1.png",
+    image: "/recommendation/plug.jpg",
     location: null,
     desc: "The bus has 4 sources of power - a full working solar system Installed - a backup silent generator - direct connection from electricity supplier plug to bus - solar battery boosting from main engine  bus alternator",
     price: null,
@@ -29,19 +29,18 @@ const recommendationData = [
   },
   {
     name: "Ammenities",
-    image: "/recommendation/hotel-2.png",
+    image: "/recommendation/shower.jpg",
     location: "Top Deck, Bottom Deck, Extensible Verandah",
     desc: "Fully fitted kitchen with Double Fridge, cooking area, Bar Serving area, lounge area, Full auotmated shower with hot water",
     price: null,
     testimonial: {
-      message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta facilis aspernatur aperiam ullam esse.",
+      message: "Everything you need in a ready to go 5 star package",
       personName: "Emily Jhonson",
     },
   },
   {
     name: "Limosine and 4x4 Rentals",
-    image: "/recommendation/hotel-3.png",
+    image: "/recommendation/vera.jpg",
     location: "Optional Extras",
     desc: "Executive  9 seater limousine with a carrying capacity of 9 passengers that can accompany the Hotel Bus on select trips as well as more rugged executive 4x4 vehicles.",
     price: 120,

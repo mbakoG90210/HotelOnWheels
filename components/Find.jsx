@@ -22,7 +22,7 @@ const hotelData = [
     location: "Botswana",
   },
   {
-    image: "/find/moza.jpg",
+    image: "/find/okavango2.jpg",
     name: "Bazaruto",
     location: "Mozambique",
   },
@@ -60,9 +60,9 @@ const Find = () => {
             whileInView="show"
             viewport={{ once: false, amount: 0.2 }}
           >
-            <Button variant="accent" className="px-12 mb-14 xl:mb-28">
+            {/*<Button variant="accent" className="px-12 mb-14 xl:mb-28">
               View All
-            </Button>
+            </Button>*/}
           </motion.div>
         </div>
         {/* hotel grid */}
@@ -76,10 +76,10 @@ const Find = () => {
           {hotelData.map((hotel, index) => {
             return (
               <div
-                className="border-2 border-outline w-[270px] h-[390px] rounded-xl overflow-hidden hover:cursor-pointer group hover:bg-soft_green transition-all duration-700 mx-auto xl:mx-0"
+                className="border-2 border-outline w-[390px] h-[390px] rounded-xl overflow-hidden hover:cursor-pointer group hover:bg-soft_green transition-all duration-700 mx-auto xl:mx-0"
                 key={index}
               >
-                <Image src={hotel.image} width={270} height={270} alt="" />
+                <Image src={hotel.image} width={390} height={270} alt="" />
                 <div className="p-6">
                   <h4 className="h4 group-hover:text-white transition-all duration-300">
                     {hotel.name}
