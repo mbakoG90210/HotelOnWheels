@@ -5,12 +5,12 @@ import CountUp from "react-countup";
 const statsData = [
   {
     value: 1.2,
-    type: "Over Destinations",
+    type: "Destinations to choose from",
     unit: "k",
   },
   {
-    value: 12,
-    type: "Guests",
+    value: 18,
+    type: "Total Guests",
     unit: null,
   },
   {

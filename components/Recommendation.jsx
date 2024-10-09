@@ -40,7 +40,7 @@ const recommendationData = [
   },
   {
     name: "Limosine and 4x4 Rentals",
-    image: "/recommendation/vera.jpg",
+    image: "/recommendation/limo.jpg",
     location: "Optional Extras",
     desc: "Executive  9 seater limousine with a carrying capacity of 9 passengers that can accompany the Hotel Bus on select trips as well as more rugged executive 4x4 vehicles.",
     price: 120,
