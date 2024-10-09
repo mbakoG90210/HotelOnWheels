@@ -11,7 +11,7 @@ const links = [
   },
   {
     path: '/',
-    pathname: 'Features',
+    pathname: 'Features and Ammenities',
   },
   {
     path: '/',
@@ -30,7 +30,7 @@ const Nav = ({ containerStyles, listStyles }) => {
         {links.map((link, index) => {
           return (
             <li>
-              <Link href={link.path}>{link.pathname}</Link>
+              <Link href={link.path} scroll={false}>{link.pathname} </Link>
             </li>
           );
         })}

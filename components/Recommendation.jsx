@@ -58,6 +58,7 @@ import { fadeIn } from "../variants";
 const Recommendation = () => {
   return (
     <motion.section
+      id="features"
       variants={fadeIn("up", 0.2)}
       initial="hidden"
       whileInView="show"
@@ -74,11 +75,11 @@ const Recommendation = () => {
         <Swiper
           modules={[Autoplay]}
           autoplay={{
-            delay: 4000,
+            delay: 2500,
             disableOnInteraction: true,
           }}
           loop
-          speed={2000}
+          speed={3000}
         >
           {recommendationData.map((hotel, index) => {
             return (

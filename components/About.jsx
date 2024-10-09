@@ -17,7 +17,7 @@ const About = () => {
   });
 
   return (
-    <section className="py-12 xl:pt-0 xl:pb-24" ref={ref}>
+    <section id="about" className="py-12 xl:pt-0 xl:pb-24" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row">
           {/* img */}
