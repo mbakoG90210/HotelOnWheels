@@ -9,8 +9,9 @@ import Socials from './Socials';
 const MobileNav = () => {
   return (
     <Sheet>
-      <SheetTrigger>
-        <Menu size={36} className='text-white' />
+      <SheetTrigger className="flex flex-row space-x-2">
+        <h3 className='text-xl font-bold text-white'>Menu</h3> 
+        <Menu size={24} className='text-white' />
       </SheetTrigger>
       <SheetContent side='left'>
         <div className='flex flex-col justify-between h-full p-12'>
